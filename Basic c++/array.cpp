@@ -56,7 +56,7 @@ int main()
             cout << "\n";
         }
 
-        //so, we can create 3d array .. as same shitt with different logic
+        //so, we can create 3d stray .. as same shitt with different logic
     }
     return 0;
 }
