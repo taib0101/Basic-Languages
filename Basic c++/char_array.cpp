@@ -21,8 +21,9 @@ int main(void)
         */
        /*
             //scanf("%[^\n]%*c",str3);
-            //fgets;
+            //fgets(str,maxx,stdin);
             //doesnt take this input
+            //in new c compiler
        */
     }
     return 0;
