@@ -21,7 +21,7 @@ taib@taib-stoner:~$ [which cat] [which ls] [which google-chrome]
 taib@taib-stoner:~$ [whatis cat] [whatis cat]
 taib@taib-stoner:~$ [man cat] [man ls]
 taib@taib-stoner:~$ [find / -name bin] [find ~/ -name taib]
-taib@taib-stoner:~$
+taib@taib-stoner:~$ [nano taib.sh] [pico taib.sh]
 taib@taib-stoner:~$
 taib@taib-stoner:~$
 taib@taib-stoner:~$
