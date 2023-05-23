@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define maxx 10
+void test(char *xx, char *yy)//parameters
+{
+    printf("%s %s\n",xx,yy);
+}
 int main(void)
 {
     int n, m;
@@ -15,6 +19,8 @@ int main(void)
         for(int i = 0; i < n; ++i)
             printf("%c",str[i]);
         cout << endl;
+        char xx[] = "bro", yy[] = "taib";
+        test(xx,yy);//arguments
         /*  
             gets(str3);//gets is a dangarous function ...for security ..
             it used on old c compiler but updated commpiller doesnt support this
