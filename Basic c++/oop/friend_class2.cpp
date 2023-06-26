@@ -1,6 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+class friend2
+{
+    public:
+        void show_friend1_from_friend2(class friend1 &ref);
+};
+
 class friend1
 {
     private:
@@ -12,17 +18,13 @@ class friend1
         void frnd_insert(char *namee,int agee,const char *hobbyy);
         
 };
+//friend2 getting all access of friend1 by using friend class friend2
 void friend1 :: frnd_insert(char *namee,int agee,const char *hobbyy)
 {
     name = namee;
     age = agee;
     hobby = hobbyy;
 }
-class friend2
-{
-    public:
-        void show_friend1_from_friend2(class friend1 &ref);
-};
 void friend2 :: show_friend1_from_friend2(class friend1 &ref)
 {
     cout << "showing friend1 elements by using friend2 member function" << endl;

@@ -1,6 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+class boy
+{
+    private:
+        char *name;
+        int age;
+        const char *boy_x_gf_name;
+        string addiction;
+        class girl jenny;
+    public:
+        void insertt(char *namee,int agee,const char *boyx,string addictionn);
+};
+
 class girl
 {
     private:
@@ -14,18 +26,6 @@ class girl
                           //but girl doesn't know about boy's details
                           //because boy doesn't give access to know about his details;
         void girl_show();
-};
-
-class boy
-{
-    private:
-        char *name;
-        int age;
-        const char *boy_x_gf_name;
-        string addiction;
-        class girl jenny;
-    public:
-        void insertt(char *namee,int agee,const char *boyx,string addictionn);
 };
 
 void girl :: girl_show()
