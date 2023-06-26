@@ -37,6 +37,7 @@ int main()
     class friend1 x;
     char ch[] = "Rafi";
     x.frnd_insert(ch,24,"Pot");
+    x.frnd_insert(ch,24,"Mod");
     class friend2 y;
     y.show_friend1_from_friend2(x);
     return 0;
