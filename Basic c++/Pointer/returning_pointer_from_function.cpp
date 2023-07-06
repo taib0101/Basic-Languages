@@ -22,6 +22,10 @@ vector < int > *pointer2(vector < int > *p1)
 struct meta *pointer3(struct meta *p1)//meta pointer is thoose same thing
 {
     *p1 = {4,5};
+    // p1 -> xx = 4;
+    // p1 -> yy = 5;
+    // (*p1).x = 4
+    // (*p2).y = 5
     return p1;
 }
 
