@@ -1,3 +1,5 @@
+//I seek refused with Allah,from the accursed devil
+//In the name of Allah the Entirely Merciful the Especially Merciful
 // In the name of Allah , the entirely merciful, the specially merciful
 // Alhamdulillah
 // Implemented by DFS

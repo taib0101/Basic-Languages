@@ -1,8 +1,6 @@
-/*   ********Bismillah Hir-Rahmanir Rahim**********
-            ********Allahu Akber********
-             *********Taib*********
-             
-*/
+//I seek refused with Allah,from the accursed devil
+//In the name of Allah the Entirely Merciful the Especially Merciful
+
 #include <bits/stdc++.h>
 using namespace std;
 int main()

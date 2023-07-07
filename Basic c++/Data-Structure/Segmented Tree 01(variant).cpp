@@ -1,5 +1,5 @@
-//I seek refused with Allah , from the accursed devil
-//In the name of Allah, the entirely merciful,the spcially merciful
+//I seek refused with Allah,from the accursed devil
+//In the name of Allah the Entirely Merciful the Especially Merciful
 //UVA 11235
 //-1 -1 1 1 1 1 3 10 10 10
 //10 10 10 3 1 1 1 1 -1 -1

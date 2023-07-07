@@ -1,5 +1,5 @@
-//I seek refused with Allah, from the accursed devil(satan)
-//In the name of Allah,The Entirely Merciful,The Specially Merciful
+//I seek refused with Allah,from the accursed devil
+//In the name of Allah the Entirely Merciful the Especially Merciful
 //Read In the name of Allah, who created you
 //Combinatorics
 

@@ -1,4 +1,5 @@
-//In the nme of Allah, the entirely merciful,the specially merciful
+//I seek refused with Allah,from the accursed devil
+//In the name of Allah the Entirely Merciful the Especially Merciful
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long

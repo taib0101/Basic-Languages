@@ -1,3 +1,5 @@
+//I seek refused with Allah,from the accursed devil
+//In the name of Allah the Entirely Merciful the Especially Merciful
 //uva 10106
 //uva 10523
 #include<bits/stdc++.h>

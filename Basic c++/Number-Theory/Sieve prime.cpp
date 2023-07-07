@@ -1,7 +1,6 @@
-/*   ********Bismillah Hir-Rahmanir Rahim**********
-            ********Allahu Akber********
-             
-*/
+//I seek refused with Allah,from the accursed devil
+//In the name of Allah the Entirely Merciful the Especially Merciful
+
 //O(nlogn)
 
 #include<bits/stdc++.h>
