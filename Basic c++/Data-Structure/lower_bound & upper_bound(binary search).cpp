@@ -1,7 +1,5 @@
-//I seek refused with Allah,from the accursed devil
+//I seek refuged with Allah,from the accursed devil
 //In the name of Allah the Entirely Merciful the Especially Merciful
-//I seek refuse with Allah, from the accursed devil
-//In the name of Allah, the entirely merciful, the specially merciful
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -36,10 +34,9 @@ int lower_boundd(int l,int r,int x,int ar[])
     while(l <= r)
     {
         int mid = (l + r) / 2;
-        //cout << "l = " << l  << " , r = " << r << endl;
-        if(x < ar[mid])
+        if(ar[mid] > x)
             r = mid - 1;
-        else if(x > ar[mid])
+        else if(ar[mid] < x)
             l = mid + 1;
         else
         {
@@ -50,7 +47,7 @@ int lower_boundd(int l,int r,int x,int ar[])
     }
     if(y != -1)
         return y;
-    return l;
+    return l;// when y = -1
 }
 
 int upper_boundd(int l,int r,int x,int ar[])
@@ -59,9 +56,9 @@ int upper_boundd(int l,int r,int x,int ar[])
     while(l <= r)
     {
         int mid = (l + r) / 2;
-        if(x < ar[mid])
+        if(ar[mid] > x)
             r = mid - 1;
-        else if(x > ar[mid])
+        else if(ar[mid] < x)
             l = mid + 1;
         else
         {
@@ -71,7 +68,7 @@ int upper_boundd(int l,int r,int x,int ar[])
     }
     if(y != -1)
         return y+1;
-    return l;
+    return l; //when y = -1
 }
 
 int main()
@@ -101,8 +98,8 @@ int main()
             int ll = lower_boundd(1,n,x,ar);
             int uu = upper_boundd(1,n,x,ar);
             //int uu = upper_boundd(1,n,x);
-            printf("lower_bound[%d] = %d\n",ll,ar[ll]);
-            printf("upper_bound[%d] = %d\n",uu,ar[uu]);
+            printf("lower_bound[%d] = %d\n",x,ll);
+            printf("upper_bound[%d] = %d\n",x,uu);
         }
     }
     return 0;
